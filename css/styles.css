@@ -1,26 +1,49 @@
 body {
+  color: whitesmoke;
   font-family: Futura, sans-serif;
   font-size: 32px;
-  background-color: rgb(255, 179, 134);
+  background-color: rgb(233, 212, 200);
 }
 
-h1 {
+.upblock {
   text-align: center;
   line-height:100px;
   width: 290px;
   height: 110px;
   padding: 20px;
-  color : whitesmoke;
   border: 10px solid whitesmoke;
-  margin: 20px auto;
-  background-color: rgb(255, 179, 134);
+  margin: 50px auto;
+  background-color: rgb(233, 212, 200);
 }
 
-h2 {
-  color: whitesmoke;
+
+h2:hover {
+  color: rgb(216, 159, 126);
+}
+
+.country {
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  background-image: url('img/ice1.JPG')
 }
 
 .imgback {
-  width: 1440px;
-  height: 450px;
+  width: 100%;
+  height: 600px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
+hr {
+  border: none;
+  color: whitesmoke;
+  background-color: whitesmoke;
+}
+
+footer {
+  font-size: 16px;
+}
+
+
